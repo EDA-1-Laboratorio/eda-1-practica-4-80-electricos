@@ -34,7 +34,7 @@ void imprimir_poco_a_poco(const char *mensaje) {
 }
 
 int main() {
-    int n = ___; // INGRESA LA LLAVE DE LAS INSTRUCCIONES
+    int n = 42; // INGRESA LA LLAVE DE LAS INSTRUCCIONES
     MemoriaIA mem;
 
     mem.capacidad = n + 1;
