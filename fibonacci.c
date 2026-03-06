@@ -10,7 +10,7 @@
 #endif
 
 typedef struct {
-    long long ________________; // DEFINE LA VARIABLE APUNTADORA AL SIGUIENTE ELEMENTO
+    long long *tabla; // DEFINE LA VARIABLE APUNTADORA AL SIGUIENTE ELEMENTO
     int _____________________; // DEFINE LA VARIABLE QUE CONTIENE EL DATO EN CADA ESPACIO DE LA ESTRUCTURA
 } MemoriaIA;
 
