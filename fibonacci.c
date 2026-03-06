@@ -11,7 +11,7 @@
 
 typedef struct {
     long long *tabla; // DEFINE LA VARIABLE APUNTADORA AL SIGUIENTE ELEMENTO
-    int _____________________; // DEFINE LA VARIABLE QUE CONTIENE EL DATO EN CADA ESPACIO DE LA ESTRUCTURA
+    int capacidad; // DEFINE LA VARIABLE QUE CONTIENE EL DATO EN CADA ESPACIO DE LA ESTRUCTURA
 } MemoriaIA;
 
 long long fibonacci_ia(int n, MemoriaIA *m) {
